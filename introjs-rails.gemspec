@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_dependency 'thor', '>= 0.14'
-  s.add_runtime_dependency 'sass-rails', '~> 5.0'
+  s.add_runtime_dependency 'sass-rails', '>= 5'
   s.add_development_dependency 'bundler', '>= 1.12.5'
   s.add_development_dependency 'rails', '>= 5'
   s.add_development_dependency 'httpclient', '~> 2.6'
